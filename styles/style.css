@@ -2168,7 +2168,6 @@
 }
 
 .prof-chef {
-  border: 1px solid;
   padding-left: 80px;
   padding-bottom: 132px;
   padding-top: 80px;
@@ -2244,6 +2243,95 @@
   line-height: 28px;
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
+}
+.prof-chef .chef-img {
+  border-radius: 50px;
+  padding-bottom: 40px;
+}
+.prof-chef .left-right-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.prof-chef .left-right-box .left-side {
+  width: 79%;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.prof-chef .left-right-box .left-side span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.prof-chef .left-right-box .left-side span h2 {
+  width: 95%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.prof-chef .left-right-box .left-side span p {
+  width: 800px;
+  height: 84px;
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+.prof-chef .left-right-box .left-side .lorem-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 920px;
+  height: 224px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.prof-chef .left-right-box .left-side .lorem-box p {
+  width: 839px;
+  height: 128px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.prof-chef .left-right-box .right-side {
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.prof-chef .left-right-box .right-side h4 {
+  width: 141px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.prof-chef .left-right-box .right-side a {
+  text-decoration: none;
+  color: black;
 }
 
 * {
