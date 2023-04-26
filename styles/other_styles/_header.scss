@@ -1,0 +1,337 @@
+.header{
+    // position: relative;
+    gap: 150px;
+
+    .title{
+        display: flex;
+        flex-direction: row;
+        // border: 1px solid;
+        a{
+            text-decoration: none;
+            font-family: 'Lobster', cursive;
+            width: 130px;
+            height: 30px;
+            font-family: 'Lobster';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            color: #000000;
+            b{
+                color: #FF7426;
+            }
+        }
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        // border: 1px solid;
+        width: 505px;
+        height: 19px;
+        gap: 30px;
+        position: relative;
+        top: 10px;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                width: 45px;
+                height: 19px;
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: -0.02em;
+                
+                color: #000000;
+            }
+        }
+    }
+
+    .social-network{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 40px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+    }
+}
+
+
+.row{
+    // background-color: red;
+    // height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // gap: 10px;
+
+    .col-5{
+        // background-color: green;
+        width: 610px;
+        height: 640px;
+        background-image: url('../assets/box-one/Rectangle\ 1\ \(1\).png');
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding: 50px;
+
+        .hot-recipes{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 156px;
+            height: 45px;
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            a{
+                text-decoration: none;
+                width: 79px;
+                height: 17px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+                
+                letter-spacing: -0.02em;
+                
+                color: #000000;
+            }
+        }
+
+        h1{
+            width: 520px;
+            height: 154px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 77px;
+            letter-spacing: -0.04em;
+            
+            color: #000000;
+        }
+
+        p{
+            width: 530px;
+            height: 56px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        .watch-fork{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+
+            .minutes{
+                width: 139px;
+                height: 40px;
+                background-color: rgba(0, 0, 0, 0.05);
+                border-radius: 30px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+
+                a{
+                    font-size: 18px;
+                    color: black;
+                }
+
+                h4{
+                    width: 73px;
+                    height: 17px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 25px;
+                    letter-spacing: -0.02em;
+                    
+                    color: rgba(0, 0, 0, 0.6);
+                }
+            }
+
+            .chicken{
+                width: 119px;
+                height: 40px;
+                background-color: rgba(0, 0, 0, 0.05);
+                border-radius: 30px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 18px;
+                }
+
+                h4{
+                    width: 53px;
+                    height: 17px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 25px;
+                    letter-spacing: -0.02em;
+                    color: rgba(0, 0, 0, 0.6);
+                }
+            }
+        }
+
+        .johnSmith{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            gap: 150px;
+            .img-text{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    // border: 1px solid;
+                    h3{
+                        width: 86px;
+                        height: 19px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 30px;
+                        letter-spacing: -0.02em;
+                        color: #000000;
+                    }       
+
+                    h4{
+                        width: 97px;
+                        height: 17px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 25px;
+                        /* identical to box height */
+                        
+                        letter-spacing: -0.02em;
+                        
+                        color: rgba(0, 0, 0, 0.6);
+                        
+                    }
+                }
+            }
+
+            .play-btn{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 200px;
+                height: 60px;
+                background-color: #000000;
+                border-radius: 16px;
+
+                a{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    text-decoration: none;
+                    width: 118px;
+                    height: 17px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: -0.02em;
+                    color: #FFFFFF;
+
+                    &:hover i{
+                        transform: rotate(180deg);
+                        transition: 0.8s;
+                    }
+                    i{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .col-6{
+        width: 602px;
+        height: 640px;
+        background-color: #FF7426;
+        background-image: url('../assets/box-one/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png');
+        border-radius: 0px 50px 50px 0px;
+        position: relative;
+
+        .center-circle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            left: -70px;
+            top: 50px;
+            background-image: url('../../assets/box-one/[Linked]\ Ellipse\ 3.png');
+
+            .thumb{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 80px;
+                height: 80px;
+                background-image: url('../../assets/box-one/[Linked]\ Ellipse\ 4.png');
+                &:hover{
+                    transform: scale(1.13);
+                    transition: 0.4s;
+                }
+                img{
+                    width: 50px;
+                    height: 50px; 
+                }
+            }
+        }
+    }
+}

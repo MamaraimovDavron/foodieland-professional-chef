@@ -1,0 +1,22 @@
+@import './other_styles/header';
+@import './other_styles/box-two';
+@import './other_styles/box-three';
+@import './other_styles/box-four';
+@import './other_styles/box-five';
+@import './other_styles/box-six';
+@import './other_styles/box_seven';
+@import './other_styles/footer';
+@import './other_styles/info';
+@import './other_styles/prof-chef';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    // border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}

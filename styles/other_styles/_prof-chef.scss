@@ -1,0 +1,88 @@
+.prof-chef{
+    border: 1px solid;
+    padding-left: 80px;
+    padding-bottom: 132px;
+    padding-top: 80px;
+    padding-right: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h2{
+        width: 1221px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 58px;
+        line-height: 77px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #000000;
+        // border: 1px solid;
+    }
+
+    .author-img{
+        display: flex;
+        // border: 1px solid;
+        margin: auto;
+        width: 42%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        span{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            border-right: 1px solid rgba(0, 0, 0, 0.1);
+            padding-right: 60px;
+
+            img{
+                border-radius: 100%;
+            }
+
+            h3{
+                width: 86px;
+                height: 19px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 25px;
+                letter-spacing: -0.02em;
+                color: #000000;
+            }
+        }
+
+        h5{
+            padding-left: 24px;
+            width: 120px;
+            height: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: -0.02em;
+            color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    p{
+        padding-top: 48px;
+        padding-bottom: 80px;
+        margin: auto;
+        width: 1059px;
+        height: 56px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+}
