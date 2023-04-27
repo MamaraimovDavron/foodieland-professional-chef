@@ -1,3 +1,320 @@
 .contact-us{
-    border: 1px solid;
+    // border: 1px solid;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    h1{
+        width: 315px;
+        height: 77px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 77px;
+        letter-spacing: -0.04em;
+        margin: auto;
+        color: #000000;   
+    }
+
+    .main-box{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        // border: 1px solid;
+        padding-top: 80px;
+        .left-box{
+            width: 400px;
+            height: 432px;
+            background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 40px;
+            // border: 1px solid;
+            img{
+                top: -40px;
+                right: -20px;
+                position: absolute;
+                width: 350px;
+                height: 472px;
+            }
+        }
+
+        .right-box{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            .name-email{
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+
+                .name{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    h3{
+                        width: 39px;
+                        height: 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 20px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+
+                    input{
+                        width: 400px;
+                        height: 60px;
+                        background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                        border-radius: 16px;
+
+                        &::-webkit-input-placeholder{
+                            width: 116px;
+                            height: 24px;
+                            padding: 20px;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            display: flex;
+                            align-items: flex-end;
+                            letter-spacing: -0.02em;
+                            
+                            color: rgba(0, 0, 0, 0.6);
+                            
+                            opacity: 0.8;
+                            
+                        }
+                    }
+                }
+
+                .email{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    h3{
+                        // width: 39px;
+                        height: 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 20px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+
+                    input{
+                        width: 400px;
+                        height: 60px;
+                        background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                        border-radius: 16px;
+
+                        &::-webkit-input-placeholder{
+                            width: 116px;
+                            height: 24px;
+                            padding: 20px;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            display: flex;
+                            align-items: flex-end;
+                            letter-spacing: -0.02em;
+                            
+                            color: rgba(0, 0, 0, 0.6);
+                            
+                            opacity: 0.8;
+                            
+                        }
+                    }
+                }
+            }
+
+            .subject{
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+
+                .subject-span{
+                    display: flex;
+                    flex-direction: column;
+                    h3{
+                        width: 39px;
+                        height: 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 20px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+
+                    input{
+                        width: 400px;
+                        height: 60px;
+                        background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                        border-radius: 16px;
+
+                        &::-webkit-input-placeholder{
+                            width: 116px;
+                            height: 24px;
+                            padding: 20px;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            display: flex;
+                            align-items: flex-end;
+                            letter-spacing: -0.02em;
+                            
+                            color: rgba(0, 0, 0, 0.6);
+                            
+                            opacity: 0.8;
+                            
+                        }
+                    }
+                }
+
+                .type{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    h3{
+                        // width: 39px;
+                        height: 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 20px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+
+                    input{
+                        width: 400px;
+                        height: 60px;
+                        background: #FFFFFF;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                        border-radius: 16px;
+
+                        &::-webkit-input-placeholder{
+                            width: 116px;
+                            height: 24px;
+                            padding: 20px;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            display: flex;
+                            align-items: flex-end;
+                            letter-spacing: -0.02em;
+                            
+                            color: rgba(0, 0, 0, 0.6);
+                            
+                            opacity: 0.8;
+                            
+                        }
+                    }
+
+                    a{
+                        top: 50%;
+                        right: 10px;
+                        text-decoration: none;
+                        font-size: 20px;
+                        color: black;
+                        position: absolute;
+                    }
+                }
+            }
+
+            .textarea{
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                h3{
+                    width: 73px;
+                    height: 20px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 20px;
+                    letter-spacing: 0.08em;
+                    text-transform: uppercase;
+                    color: rgba(0, 0, 0, 0.6);
+                }
+
+
+                textarea{
+                    width: 840px;
+                    height: 200px;
+                    background: #FFFFFF;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    border-radius: 16px;
+
+                    &::-webkit-input-placeholder{
+                        // width: 145px;
+                        height: 24px;
+                        padding: 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        /* identical to box height, or 171% */
+                        
+                        display: flex;
+                        align-items: flex-end;
+                        letter-spacing: -0.02em;
+                        
+                        color: rgba(0, 0, 0, 0.6);
+                        
+                        opacity: 0.8;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+            
+    .button{
+            padding-top: 68px;
+            padding-bottom: 160px;
+            margin: auto;
+        button{
+            width: 180px;
+            height: 64px;
+            background: #000000;
+            border-radius: 16px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            border: 0;
+            color: #FFFFFF;
+        }
+    }
 }
