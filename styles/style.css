@@ -390,6 +390,7 @@
   color: rgba(255, 255, 255, 0.537254902);
   transition: 0.4s;
 }
+
 .box-seven .inbox .text-inbox .input-box .button a {
   text-decoration: none;
   width: 67px;
@@ -402,6 +403,7 @@
   /* identical to box height */
   letter-spacing: -0.02em;
   color: #FFFFFF;
+  
 }
 .box-seven .inbox .leafe {
   position: absolute;
@@ -409,6 +411,7 @@
   bottom: 100px;
   transform: rotate(-15deg);
 }
+
 .box-seven .inbox .right-img {
   width: 355.07px;
   height: 355.62px;
@@ -420,6 +423,184 @@
 .box-seven .inbox .right-img img {
   border-radius: 50px;
 }
+
+.box-six{
+  /* border: 1px solid; */
+  padding-top: 160px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  gap: 50px;
+}
+
+.box-six .title-text{
+  display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.box-six .title-text h1{
+  width: 507px;
+  height: 116px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.box-six .title-text h2{
+  width: 468px;
+            height: 44px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            letter-spacing: -0.04em;
+            text-align: center;
+            width: 100%;
+            color: #000000;
+}
+
+.box-six .title-text p{
+  width: 620px;
+            height: 56px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: rgba(0, 0, 0, 0.6);
+}
+
+.box-six .img-box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+.box-six .img-box .col-3{
+  width: 290px;
+            height: 316px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            gap: 12px;
+}
+
+.box-six .img-box .col-3 .imgLike{
+  display: flex;
+  flex-direction: row;
+}
+
+.box-six .img-box .col-3 .imgLike img{
+  width: 290px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.box-six .img-box .col-3 .imgLike a{
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  text-decoration: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-six .img-box .col-3 .imgLike a:hover i{
+  color: #FF6363;
+                        transition: 0.4s;
+}
+
+.box-six .img-box .col-3 .imgLike i{
+  color: #DBE2E5;
+  font-size: 20px;
+}
+
+.box-six .img-box .col-3 h3{
+  width: 290px;
+  height: 52px;                
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.box-six .img-box .col-3 .watch-spoon{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 290px;
+                justify-content: flex-start;
+                gap: 40px;
+}
+
+.box-six .img-box .col-3 .watch-spoon .watch{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.box-six .img-box .col-3 .watch-spoon .watch a{
+  text-decoration: none;
+                        color: black;
+}
+
+.box-six .img-box .col-3 .watch-spoon .watch h3{
+  width: 73px;
+                        height: 17px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 23px;                        
+                        letter-spacing: -0.02em;
+                        color: rgba(0, 0, 0, 0.6);
+}
+
+.box-six .img-box .col-3 .watch-spoon .spoon{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.box-six .img-box .col-3 .watch-spoon .spoon a{
+  text-decoration: none;
+  color: black;
+}
+
+.box-six .img-box .col-3 .watch-spoon .spoon h3{
+  width: 73px;
+  height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;                        
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 
 .footer {
   flex-direction: row;
